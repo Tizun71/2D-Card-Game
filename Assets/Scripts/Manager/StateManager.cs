@@ -34,4 +34,17 @@ public class StateManager : MonoBehaviour
                 break;
         }
     }
+
+    void IsPlayerTurn()
+    {
+        Debug.Log("Player Turn");
+    }
+
+    public void OnUseCard()
+    {
+        if (state != GameState.playerTurn)
+        {
+            return;
+        }
+    }
 }

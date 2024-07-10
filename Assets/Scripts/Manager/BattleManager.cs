@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BattleManager : MonoBehaviour
@@ -28,6 +29,5 @@ public class BattleManager : MonoBehaviour
                 enemiesUnit[i] = enemiesGO[i].GetComponent<Unit>();
             }
         }
-
     }
 }

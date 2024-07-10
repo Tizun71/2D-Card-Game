@@ -10,5 +10,5 @@ public abstract class Card : MonoBehaviour
     [SerializeField] private int cardCost;
     [SerializeField] private string cardDescription;
 
-    public abstract void UseCard();
+    public abstract void UseCard(Unit unit);
 }
